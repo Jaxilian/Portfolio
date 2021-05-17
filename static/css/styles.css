@@ -199,13 +199,9 @@ footer p{
         margin:2vh;
     }
     
-    .article{
-        width:400px;
-        margin-left:10%;
-        margin-right:10%;
-    }
+  
     
-    nav.desktop_menu{
+    nav.desktop_navbar{
         display: none;
     }
 
@@ -246,7 +242,6 @@ footer p{
     nav.menu li a {
         color: white;
         text-decoration: none;
-        font-family:Cinzel-Regular;
     }
 
    nav.menu ul li a:hover, ul li a.active {

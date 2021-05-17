@@ -55,18 +55,21 @@ section{
     border:solid 1px;
     border-radius: 5px;
     border-color: black;
+    min-width: 269.75px;
     
 }
 
 .profile_small h4
 {
-
+    max-width: 60%;
 }
 
 .profile_small img
 {
-    width:  269.75px  ;
-    height: 315.75.5px ;
+    max-width: 33%;
+    max-height: 33%;
+    border:black solid 1px;
+    border-radius: 5px;
 }
 
 .center

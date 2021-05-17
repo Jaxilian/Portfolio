@@ -4,13 +4,12 @@ body
 {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #777;
     margin:0px;
-    background: rgb(48, 48, 48) no-repeat; 
+    background: rgb(17, 17, 17) no-repeat; 
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color:white;
+    color:rgb(228, 228, 228);
 }
 
 i{
@@ -36,12 +35,67 @@ hr
     min-width: 100vh;
 }
 
-section{
+.full_size
+{
     min-height: 100vh;
 }
 
 
 /* COMMON CLASSES */
+
+.project_container
+{
+    display:flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+}
+
+.project_container li
+{
+ 
+    
+}
+
+.project_view
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    display:flex;
+}
+.project_view img
+{
+    width: 40vw;
+    height: auto;
+    
+}
+
+.project_view img :hover
+{
+    filter:opacity(25%);
+    -webkit-transition: all 0.2s ease;                  
+    -moz-transition: all 0.2s ease;                 
+    -o-transition: all 0.2s ease;   
+    -ms-transition: all 0.2s ease;          
+    transition: all 0.2s ease;
+
+}
+
+.project_details
+{
+    position: absolute;
+    width: 40vw;
+    height: inherit ;
+    margin:0px;
+    text-align: center;
+    align-self: center;
+    color:white;
+}
+
+
+
+
 
 .profile_small
 {
@@ -59,13 +113,20 @@ section{
     
 }
 
+
 .profile_small h4
 {
-    max-width: 60%;
+    max-width: 50%;
+    margin-left: 5px;
+    font-style:normal;
+    font-weight: lighter;
+    line-height: 20px;
 }
 
 .profile_small img
 {
+    min-width: 269.75px;
+    min-height:315.75.5px ;
     max-width: 33%;
     max-height: 33%;
     border:black solid 1px;
@@ -114,6 +175,7 @@ section{
     display: flex;
     width: 100%;
     font-family: Cinzel-Regular;
+    background-color: black;
 }
 
 nav.desktop_navbar ul 
